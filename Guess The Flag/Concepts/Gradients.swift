@@ -9,7 +9,17 @@ import SwiftUI
 
 struct Gradients: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            AngularGradient(gradient: Gradient(colors: [.red, .yellow, .green, .blue, .purple, .red]), center: .center)
+        }
+        ZStack{
+            RadialGradient(gradient: Gradient(colors: [.blue, .black]), center: .center, startRadius: 20, endRadius: 200)
+            Text("Hello world")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .foregroundColor(.red)
+        }
+        
     }
 }
 
