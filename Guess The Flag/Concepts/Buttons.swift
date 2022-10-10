@@ -9,7 +9,47 @@ import SwiftUI
 
 struct Buttons: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Spacer()
+            HStack{
+                Button("Button 1") { }
+                    .buttonStyle(.bordered)
+                Button("Button 2", role: .destructive) { }
+                    .buttonStyle(.bordered)
+                Button("Button 3") { }
+                    .tint(.mint)
+                    .buttonStyle(.borderedProminent)
+                Button("Button 4", role: .destructive) { }
+                    .buttonStyle(.borderedProminent)
+            }
+            Spacer()
+            // MARK: Custom Buttons
+            Button {
+                print("Button was tapped")
+            } label: {
+                Text("Tap me!")
+                    .padding()
+                    .foregroundColor(.white)
+                    .background(.green)
+            }
+            Spacer()
+            
+            // MARK: Images as Buttons
+            Button {
+                print("Edit button was tapped")
+            } label: {
+                Image(systemName: "pencil")
+            }
+            Spacer()
+            
+            // MARK: Both image and button
+            Button {
+                print("Edit button was tapped")
+            } label: {
+                Label("Edit", systemImage: "pencil")
+            }
+            Spacer()
+        }
     }
 }
 
