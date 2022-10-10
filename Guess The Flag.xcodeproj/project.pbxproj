@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		957B58E828F47A0C00B2BB5E /* ColorsAndFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957B58E728F47A0C00B2BB5E /* ColorsAndFrames.swift */; };
+		957B58EA28F4B0F300B2BB5E /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957B58E928F4B0F300B2BB5E /* Gradients.swift */; };
 		95CBC64A28F3651A0063FB9B /* Guess_The_FlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBC64928F3651A0063FB9B /* Guess_The_FlagApp.swift */; };
 		95CBC64C28F3651A0063FB9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBC64B28F3651A0063FB9B /* ContentView.swift */; };
 		95CBC64E28F3651C0063FB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CBC64D28F3651C0063FB9B /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		957B58E728F47A0C00B2BB5E /* ColorsAndFrames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsAndFrames.swift; sourceTree = "<group>"; };
+		957B58E928F4B0F300B2BB5E /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 		95CBC64628F3651A0063FB9B /* Guess The Flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess The Flag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95CBC64928F3651A0063FB9B /* Guess_The_FlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_The_FlagApp.swift; sourceTree = "<group>"; };
 		95CBC64B28F3651A0063FB9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				95CBC65928F3690E0063FB9B /* ArrangeViews.swift */,
 				957B58E728F47A0C00B2BB5E /* ColorsAndFrames.swift */,
+				957B58E928F4B0F300B2BB5E /* Gradients.swift */,
 			);
 			path = Concepts;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95CBC64C28F3651A0063FB9B /* ContentView.swift in Sources */,
+				957B58EA28F4B0F300B2BB5E /* Gradients.swift in Sources */,
 				95CBC64A28F3651A0063FB9B /* Guess_The_FlagApp.swift in Sources */,
 				95CBC65A28F3690E0063FB9B /* ArrangeViews.swift in Sources */,
 				957B58E828F47A0C00B2BB5E /* ColorsAndFrames.swift in Sources */,
